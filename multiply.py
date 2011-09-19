@@ -8,7 +8,6 @@
 #
 
 import sys
-import asyncwaiter
 
 def multiply_by_2(numbers):
     result = []
@@ -25,7 +24,7 @@ def is_integer(x):
 
 def main():
     input = [int(x) for x in sys.argv[1:] if is_integer(x)]
-    output = asyncwaiter.executeNow(multiply_by_2, input)
+    output = multiply_by_2(input)
     print(str(input) +' -> '+ str(output))
 
 if __name__ == '__main__':
