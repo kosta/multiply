@@ -2,6 +2,8 @@
 
 #
 # Multiply - Toolbox for Mathematics
+# Four-Spaces-Edition
+#
 # Author: Philipp
 #
 
