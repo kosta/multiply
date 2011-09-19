@@ -9,7 +9,7 @@ Example:
 
 Will output:
 
-    2 4 6 9
+    2 4 6 8
 
 Future versions might support multiplying by different numbers.
 
